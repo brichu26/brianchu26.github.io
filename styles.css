@@ -144,16 +144,32 @@ a {
     top: 0;
     width: 100%;
     z-index: 1000;
+    display: flex; /* Add this line */
+    justify-content: center; /* Center the links horizontally */
+    align-items: center; /* Center the links vertically */
 }
 
 .navbar a {
-    float: left;
+    float: none; /* Remove the float */
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 20px; /* Adjust padding as needed */
     text-decoration: none;
     font-size: 17px;
+    margin: 0 10px; /* Add some space between links */
+}
+
+/* Add this for better responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack the links vertically on smaller screens */
+        padding: 10px 0; /* Adjust padding for the navbar itself */
+    }
+    .navbar a {
+        width: 100%; /* Make each link extend full width of the navbar */
+        margin: 5px 0; /* Reduce margin for a stacked appearance */
+    }
 }
 
 .navbar a:hover {
