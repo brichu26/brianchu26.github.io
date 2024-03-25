@@ -9,16 +9,29 @@
     <title>Brian Chu</title>
 </head>
 <body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#special1">Education</a>
+            <a href="#special2">Experience</a>
+            <a href="#special3">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    
         <!-- Part 1: Question 0. Add an image of yourself here. -->
-        <h1>Brian Chu</h1>
-        <img src="../assets/profile.jpeg"/>
+        <div id = "home"> 
+            <h1>Brian Chu</h1>
+            <img src="../assets/profile.jpeg"/>
+        </div>
+        
         <!-- Question 1. Add a unique id to each div that belongs to the class "section-wrapper".-->
+        
         <div class="section-wrapper" id="special1">
             <h2>Education</h2>
             <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
             <h3>University of California, Berkeley</h3>
             <h4>Major: Computer Science, Applied Mathematics</h4>
         </div>
+
         <div class="section-wrapper" id="special2">
             <h2>Experience</h2>
             <!-- Question 3a. Copy-paste the div with the class experience-list-item twice, and fill them in with your work experiences. -->
@@ -31,6 +44,7 @@
                     <li>Perform hierarchical clustering to measure similarity in crystal structures of materials</li>
                 </ul>
             </div>
+
             <div class="experience-list-item">
                 <h3>SLC Math/Stat Tutor</h3>
                 <ul>
@@ -50,6 +64,7 @@
             <!-- Question 3c. Create a div that contains/wraps around ALL the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
             </div>
         </div>
+
         <div class="section-wrapper" id="special3">
             <div class="project-wrapper">
             <h2>Projects</h2>
@@ -68,11 +83,13 @@
             </div>
             </div>
         </div>
+
             <!-- Question 4b. Create a div that contains/wraps around all the projects-list-item divs named "project-wrapper". You'll need this later! -->
         <div class="section-wrapper" id="contact">
             <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
             <p><a href="https://www.linkedin.com/in/brian-chu-8791a5264/">LinkedIn</a></p>
             <p><a href="https://github.com/brichu26">GitHub</a></p>
         </div>
+        <script src = "script.js"></script>
 </body>
 </html>
