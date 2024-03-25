@@ -65,7 +65,7 @@ h1:hover {
 .experience-list-item {
     border: 4px solid #1d3557;
     text-align: left;
-    width: 250px;
+    width: 800px;
     padding: 10px 20px;
     border-radius: 15px;
     /*YOUR CODE HERE*/
@@ -103,7 +103,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 .project-list-item {
     border: 4px solid #1d3557;
     text-align: left;
-    width: 250px;
+    width: 800px;
     padding: 10px 20px;
     border-radius: 15px;
     /*YOUR CODE HERE*/
