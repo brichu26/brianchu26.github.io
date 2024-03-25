@@ -1,14 +1,10 @@
-/* Question 0. Import a font and make all text in the body using that font. Check the homework instructions for more information!*/
-/* Set all text in the body to be a certain color (whatever color you choose!)*/
-/* Center all text in the body. Check out the homework spec for help.*/
-
 body {
     margin: 50px auto;
     max-width: 1200px;
     /* YOUR CODE HERE */
 }
 
-/* Question 1: Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
+/* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
 img {
     width: 175px;
     /* YOUR CODE HERE */
@@ -21,9 +17,7 @@ h1 {
     transition: ease-in-out 0.5s;
 }
 
-/* Question 2. Select the h1 tag and add a hover effect! You can change the background-color, color, opacity, or anything you want.*/
-
-/* YOUR CODE HERE */
+/* Select the h1 tag and add a hover effect! You can change the background-color, color, opacity, or anything you want.*/
 h1:hover {
     font-size: 45px;
     color:blue;
@@ -33,9 +27,7 @@ h1:hover {
 
 
 
-/* Question 3. Add different background colors for all the different sections (Education, Experience, etc.) by selecting them via ids. */
-
-/* YOUR CODE HERE */
+/* Add different background colors for all the different sections (Education, Experience, etc.) by selecting them via ids. */
 #special1 { 
     color: green;
 }
@@ -49,10 +41,8 @@ h1:hover {
 
 
 /* Question 4. Add margin, padding, and borders to the section-wrapper class! */
-
 .section-wrapper {
     background-color: #a5d2ee;
-    /*YOUR CODE HERE*/
     width: 800px;
     border: 15px solid green;
     padding: 60px;
@@ -63,8 +53,6 @@ h1:hover {
 
 /* Experience Section */
 
-/* Question 5a. Use CSS Flexbox to display your experiences as shown in the diagram.
- Hint: Check the homework spec for some help!*/
 
 .experience-wrapper {
     display: grid; /* YOUR CODE HERE */
@@ -72,7 +60,7 @@ h1:hover {
     justify-content: center; /*YOUR CODE HERE*/
 }
 
-/* Question 5b. Add a background color to the experience-list-item class.*/
+/* Add a background color to the experience-list-item class.*/
 
 .experience-list-item {
     border: 4px solid #1d3557;
@@ -89,7 +77,7 @@ h1:hover {
 
 
 
-/* Question 5c. Let's take a break! Add a hover effect to each experience-list-item div. 
+/* Add a hover effect to each experience-list-item div. 
 Experiment with border, border-radius, background-color, or whatever you want!*/
 
 .experience-list-item:hover {
@@ -104,7 +92,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 
 /* Projects Section */
 
-/* Question 6. Use CSS Flexbox and hover effects for the Projects Section, just as you did for the Experience Section! */
+/* Use CSS Flexbox and hover effects for the Projects Section, just as you did for the Experience Section! */
 
 /*YOUR CODE HERE*/
 .project-wrapper {
@@ -137,7 +125,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 
 /* Contact Section */
 
-/* Question 7. Make your link look something like the one shown in the homework spec!*/
+/* Make your link look something like the one shown in the homework spec!*/
 
 a {
     /*YOUR CODE HERE*/
