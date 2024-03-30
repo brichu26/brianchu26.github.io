@@ -2,6 +2,7 @@ body {
     margin: 50px auto;
     max-width: 1200px;
     /* YOUR CODE HERE */
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
@@ -40,6 +41,7 @@ h1:hover {
 
 .header { 
     justify-content: center;
+    text-align: center;
 }
 
 
@@ -48,9 +50,11 @@ h1:hover {
 .section-wrapper {
     background-color: #a5d2ee;
     width: 800px;
-    border: 15px solid green;
+    border: 15px solid rgb(41, 5, 120);
     padding: 60px;
     margin: 50px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 
 
@@ -199,7 +203,7 @@ a {
     border-right: 2px solid;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation: typing 8.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
