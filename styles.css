@@ -8,7 +8,7 @@ body {
 }
 
 /* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
-img {
+.img {
     width: 175px;
     /* YOUR CODE HERE */
     border: 100px; 
