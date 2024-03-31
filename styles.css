@@ -1,8 +1,10 @@
 body {
     margin: 50px auto;
-    max-width: 1200px;
+    max-width: 100%;
+    width: 100%; 
     /* YOUR CODE HERE */
     font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 1.8;
 }
 
 /* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
@@ -39,9 +41,15 @@ h1:hover {
     color:rgb(59, 50, 18);
 }
 
+#contact { 
+    text-align: center;
+    justify-content: center;
+}
+
 .header { 
     justify-content: center;
     text-align: center;
+    border: 15px solid rgb(41, 5, 120);
 }
 
 
@@ -55,6 +63,13 @@ h1:hover {
     margin: 50px;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    gap: 15px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 
@@ -140,8 +155,9 @@ a {
     text-decoration: none;
     padding: 5px;
     border: 5px solid rgb(206, 174, 45);
-
+    border-radius: 5px;
     box-shadow: rgb(213, 213, 49);
+    
 }
 
 /* Navigation Bar Styling */
@@ -155,17 +171,22 @@ a {
     display: flex; /* Add this line */
     justify-content: center; /* Center the links horizontally */
     align-items: center; /* Center the links vertically */
+    
+    
+    
 }
 
 .navbar a {
     float: none; /* Remove the float */
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 20px; /* Adjust padding as needed */
     text-decoration: none;
     font-size: 17px;
     margin: 0 10px; /* Add some space between links */
+    justify-content: space-around;
+    
 }
 
 /* Add this for better responsive design */
@@ -181,8 +202,9 @@ a {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: rgb(221, 221, 221);
     color: black;
+    gap: 15px; 
 }
 
 
