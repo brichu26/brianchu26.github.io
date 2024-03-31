@@ -8,10 +8,10 @@ body {
 }
 
 /* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
-.img {
+img {
     width: 20px;
     /* YOUR CODE HERE */
-    border: 5px; 
+    border: 5px royalblue; 
     box-shadow: purple;
 }
 
