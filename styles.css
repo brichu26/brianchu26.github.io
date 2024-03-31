@@ -61,7 +61,7 @@ h1:hover {
 /* Question 4. Add margin, padding, and borders to the section-wrapper class! */
 .section-wrapper {
     background-color: #a5d2ee;
-    width: 800px;
+    width: 1000px;
     border: 15px solid rgb(41, 5, 120);
     padding: 60px;
     margin: 50px;
@@ -112,6 +112,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
     border: 4px;
     border-radius: 4; 
     background-color: orange; 
+    border: 4px solid #1d3557;
 }
 
 
@@ -141,7 +142,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 }
 .project-list-item:hover {
     /* YOUR CODE HERE */
-    border: 4px;
+    border: 4px solid #1d3557;;
     border-radius: 4; 
     background-color: rgb(208, 75, 179); 
 }
