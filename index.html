@@ -20,6 +20,7 @@
         <div class = "header" id = "home"> 
             <h1>Brian Chu</h1>
                 <img src="../assets/profile.jpeg"/>
+            <h2>Welcome to my personal portfolio!</h2>
         </div>
 
 
@@ -27,19 +28,26 @@
         
 
 
-        <div class="section-wrapper" id="contact">
-            <h2>Contact Me Here!</h2>
+        <div class="contact-wrapper" id="contact">
+            <h2>More Links</h2>
             <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
-            <p><a href="https://www.linkedin.com/in/brian-chu-8791a5264/">LinkedIn</a></p>
-            <p><a href="https://github.com/brichu26">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/brian-chu-8791a5264/"class="button">LinkedIn</a></p>
+            <p><a href="https://github.com/brichu26" class="button">GitHub</a></p>
+            
         </div>
+        
+        <div class="contact-wrapper" id="contact">
+            <h3>Contact Me Here!</h3>
+            <h4>Email: brianchu26@berkeley.edu</h4>
+        </div>
+        
         <script src = "script.js"></script>
 
 
         <script>
-            const text = "Hello! I'm Brian Chu, a sophomore at UC Berkeley studying CS and Math with a passion for ML and Full-Stack Development";
+            const text = "Hello! I'm Brian Chu, a sophomore at UC Berkeley studying Computer Science and Applied Math with a passion for ML/Generative AI and Full-Stack Development";
             let index = 0;
-            const speed = 15; // Speed of typing, in milliseconds
+            const speed = 10; // Speed of typing, in milliseconds
         
             function typeText() {
                 if (index < text.length) {
