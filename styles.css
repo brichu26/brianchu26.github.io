@@ -33,7 +33,7 @@ h1:hover {
 
 /* Add different background colors for all the different sections (Education, Experience, etc.) by selecting them via ids. */
 #special1 { 
-    color: green;
+    color: rgb(60, 20, 135);
 }
 #special2 { 
     color: purple;
