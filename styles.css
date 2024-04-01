@@ -49,6 +49,9 @@ h1:hover {
     margin-bottom: 100px;
     margin-right: 100px;
     margin-left: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: 15px solid rgb(41, 5, 120); 
 }
 
 
@@ -249,6 +252,8 @@ a {
 #typed-text {
     border-right: 2px solid;
     white-space: nowrap;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px; 
     overflow: hidden;
     animation: typing 8.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
