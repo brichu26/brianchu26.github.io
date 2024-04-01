@@ -274,3 +274,13 @@ a {
         text-align: left;
     }
 }
+
+a {
+    /*YOUR CODE HERE*/
+    text-decoration: none;
+    padding: 5px;
+    border: 5px solid rgb(166, 68, 196);
+    border-radius: 5px;
+    box-shadow: rgb(213, 213, 49);
+    
+}

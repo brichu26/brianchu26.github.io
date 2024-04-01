@@ -134,7 +134,8 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
     /* YOUR CODE HERE */
     border: 4px;
     border-radius: 4; 
-    background-color: orange; 
+    background-color: rgb(59, 51, 150); 
+    color:rgb(221, 221, 221);
     border: 4px solid #1d3557;
 }
 
@@ -168,6 +169,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
     border: 4px solid #1d3557;;
     border-radius: 4; 
     background-color: rgb(208, 75, 179); 
+    color: white; 
 }
 
 
@@ -178,15 +180,7 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 
 /* Make your link look something like the one shown in the homework spec!*/
 
-a {
-    /*YOUR CODE HERE*/
-    text-decoration: none;
-    padding: 5px;
-    border: 5px solid rgb(166, 68, 196);
-    border-radius: 5px;
-    box-shadow: rgb(213, 213, 49);
-    
-}
+
 
 /* Navigation Bar Styling */
 .navbar {
@@ -299,6 +293,7 @@ a {
     background-color: #0000FF; 
     color: white;
     text-align: center;
+    border-radius: 15px;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
