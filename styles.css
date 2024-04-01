@@ -5,6 +5,7 @@ body {
     /* YOUR CODE HERE */
     font-family: "Lucida Console", "Courier New", monospace;
     line-height: 1.8;
+    background-color: rgb(193, 220, 229);
 }
 
 /* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
@@ -49,7 +50,6 @@ h1:hover {
 .header { 
     justify-content: center;
     text-align: center;
-    border: 15px solid rgb(41, 5, 120);
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 100px;
@@ -60,7 +60,7 @@ h1:hover {
 
 /* Question 4. Add margin, padding, and borders to the section-wrapper class! */
 .section-wrapper {
-    background-color: #a5d2ee;
+    background-color: #e6b5ed;
     width: 1150px;
     border: 15px solid rgb(41, 5, 120);
     padding: 60px;
