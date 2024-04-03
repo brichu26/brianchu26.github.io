@@ -24,3 +24,4 @@ April 1st:
 
 April 3rd: 
 - Added more content to Experience and Projects pages 
+- Improved Experience page by putting the organization name and employed position on separate lines 

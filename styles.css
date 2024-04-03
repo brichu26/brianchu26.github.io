@@ -59,7 +59,7 @@ h1:hover {
 
 /* Question 4. Add margin, padding, and borders to the section-wrapper class! */
 .section-wrapper {
-    background-color: #e6b5ed;
+    background-color: #659beb;
     width: 1150px;
     border: 15px solid rgb(41, 5, 120);
     padding: 60px;
@@ -78,7 +78,7 @@ h1:hover {
 
 /* Education Section */
 .education-wrapper {
-    background-color: #8dc6ea;
+    background-color: #eae61e;
     width: 1150px;
     padding: 60px;
     margin: 50px;
@@ -146,6 +146,24 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 /* Use CSS Flexbox and hover effects for the Projects Section, just as you did for the Experience Section! */
 
 /*YOUR CODE HERE*/
+
+.project-section-wrapper { 
+    background-color: #e6b5ed;
+    width: 1150px;
+    border: 15px solid rgb(41, 5, 120);
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    gap: 15px; 
+    margin-top: 65px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .project-wrapper {
     gap: 10px; /*YOUR CODE HERE*/
     justify-content: center; /*YOUR CODE HERE*/
