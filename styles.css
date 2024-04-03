@@ -5,7 +5,7 @@ body {
     /* YOUR CODE HERE */
     font-family: "Lucida Console", "Courier New", monospace;
     line-height: 1.8;
-    background-color: rgb(193, 220, 229);
+    background-color: rgb(131, 202, 223);
 }
 
 /* Add a border, border radius, box shadow, or whatever other styling you'd like to your image! */
@@ -18,14 +18,17 @@ img {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
+    
     transition: ease-in-out 0.5s;
 }
 
 /* Select the h1 tag and add a hover effect! You can change the background-color, color, opacity, or anything you want.*/
 h1:hover {
-    font-size: 45px;
-    color:blue;
+    font-size: 60px;
+    color:rgb(208, 243, 10);
+    background-color: #1d3557;
+    border-radius: 15px;
     transition: ease-in-out 0.5s;
 }
 
@@ -53,6 +56,21 @@ h1:hover {
     background-color: rgb(63, 148, 213);
     border-radius: 15px;
     border: 15px solid rgb(41, 5, 120); 
+}
+
+.profile {
+    background-color: #659beb;
+    width: 1192px;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    gap: 15px; 
+    margin-top: 65px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 
@@ -150,10 +168,10 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 .project-section-wrapper { 
     background-color: #e6b5ed;
     width: 1150px;
-    border: 15px solid rgb(41, 5, 120);
+    border: 15px solid rgb(175, 50, 200);
     padding: 60px;
     margin: 50px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgba(189, 2, 142, 0.2);
     border-radius: 15px;
     justify-content: center;
     text-align: center;
@@ -275,6 +293,10 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 20px; 
     overflow: hidden;
+    margin-left: 435px;
+    margin-right: 300px;
+    justify-content: center;
+    width: 800px; 
     animation: typing 8.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -288,6 +310,8 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgb(52, 126, 210) }
+    from {width: 32%}
+    to {width: 68%}
 }
 
 

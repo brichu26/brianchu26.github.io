@@ -20,13 +20,36 @@
         <div class = "header" id = "home"> 
             <h1>Brian Chu</h1>
                 <img src="../assets/profile.jpeg"/>
-            <h2>Welcome to my personal portfolio!</h2>
+                <div id="typed-text">
+                    <script>
+                        const text = "Welcome to my personal portfolio!";
+                        let index = 0;
+                        const speed = 15; // Speed of typing, in milliseconds
+                    
+                        function typeText() {
+                            if (index < text.length) {
+                                document.getElementById('typed-text').innerHTML += text.charAt(index);
+                                index++;
+                                setTimeout(typeText, speed);
+                            }
+                        }
+                    
+                        window.onload = function() {
+                            typeText();
+                        };
+                    </script>
+                </div>
         </div>
 
 
-        <div id="typed-text"></div>
+        
         
 
+        <div class="profile">
+            <h2>Profile</h2>
+            <h3>Hello! I'm Brian Chu, a sophomore at UC Berkeley studying Computer Science and Applied Mathematics (concentration in Data Science). I am particularly passionate about building efficient and scalable end-to-end systems as well as leveraging machine learning and data science to derive meaningful insights and understand the world around us. 
+                I'm continuously seeking opportunities to collaborate, innovate, and grow within the tech community. Feel free to reach out to me! My contact information is linked below.</h3>
+        </div>
         <div class="contact-wrapper-outside">
             <div class="contact-wrapper" id="contact">
                 <h2>More Links</h2>
@@ -47,22 +70,6 @@
         <script src = "script.js"></script>
 
 
-        <script>
-            const text = "Hello! I'm Brian Chu, a sophomore at UC Berkeley studying CS and Math with a passion for ML/GenAI and Full-Stack Development";
-            let index = 0;
-            const speed = 10; // Speed of typing, in milliseconds
         
-            function typeText() {
-                if (index < text.length) {
-                    document.getElementById('typed-text').innerHTML += text.charAt(index);
-                    index++;
-                    setTimeout(typeText, speed);
-                }
-            }
-        
-            window.onload = function() {
-                typeText();
-            };
-        </script>
 </body>
 </html>
