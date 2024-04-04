@@ -29,3 +29,4 @@ April 3rd:
 - Added 'Profile' section to Home page 
 - Improved cursor functionality 
 - Improved h1 hover functionality and effects 
+- Improved homepage layout(profile section)
