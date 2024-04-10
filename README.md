@@ -33,3 +33,6 @@ April 3rd:
 
 April 10th: 
 - Improved color schemes(made almost everything blue-themed)
+- Improved hover color effects(blue and gold effect when hovering over UC Berkeley header on Education page)
+- Took out all box shadows 
+- Fine-tuned look of homepage 
