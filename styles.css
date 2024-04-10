@@ -95,7 +95,7 @@ h1:hover {
 
 /* Education Section */
 .education-wrapper {
-    background-color: #eae61e;
+    background-color: #659beb;
     width: 1150px;
     padding: 60px;
     margin: 50px;
@@ -165,9 +165,9 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 /*YOUR CODE HERE*/
 
 .project-section-wrapper { 
-    background-color: #e6b5ed;
+    background-color: #699ce9;
     width: 1150px;
-    border: 15px solid rgb(175, 50, 200);
+    border: 15px solid rgb(41, 5, 120);
     padding: 60px;
     margin: 50px;
     box-shadow: 12px 12px 2px 1px rgba(189, 2, 142, 0.2);
@@ -206,8 +206,8 @@ Experiment with border, border-radius, background-color, or whatever you want!*/
 .project-list-item:hover {
     /* YOUR CODE HERE */
     border: 4px solid #1d3557;;
-    border-radius: 4; 
-    background-color: rgb(208, 75, 179); 
+    border-radius: 4;  
+    background-color: rgb(59, 51, 150); 
     color: white; 
 }
 
