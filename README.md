@@ -30,3 +30,6 @@ April 3rd:
 - Improved cursor functionality 
 - Improved h1 hover functionality and effects 
 - Improved homepage layout(profile section)
+
+April 10th: 
+- Improved color schemes(made almost everything blue-themed)
