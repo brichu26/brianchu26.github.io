@@ -36,3 +36,8 @@ April 10th:
 - Improved hover color effects(blue and gold effect when hovering over UC Berkeley header on Education page)
 - Took out all box shadows 
 - Fine-tuned look of homepage 
+
+May 3rd: 
+- Updated background picture of all pages 
+- Edited Contacts section to include logo of LinkedIn and GitHub
+- Massively revamped main page 
